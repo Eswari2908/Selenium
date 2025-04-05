@@ -27,6 +27,8 @@ public class TC002_Computers extends BaseClass{
 		
 		Assert.assertEquals(driver.getTitle(), "Demo Web. ", "Computer page is not displayed");
 		test.log(Status.PASS, "Computer page is displayed");
+		test.log(Status.PASS, "Computer page is displayed");
+
 		wutil.getPhoto(driver);
 		
 	}
